@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\priyo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Python311\Scripts\;C:\Python311\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\priyo\AppData\Roaming\Python 3.10.5\Scripts\;C:\Users\priyo\AppData\Roaming\Python 3.10.5\;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\PuTTY\;C:\Users\priyo\AppData\Roaming\Python\Python310\site-packages\QtDesigner;C:\Users\priyo\AppData\Roaming\Python\Python310\site-packages\PyQt5;C:\Users\priyo\AppData\Roaming\Python\Python310\site-packages\PyQt5\uic;C:\Program Files\MATLAB\R2018a\runtime\win64;C:\Program Files\MATLAB\R2018a\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files\MATLAB\MATLAB Runtime\v95\runtime\win64;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\nodejs\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\priyo\AppData\Local\Microsoft\WindowsApps;C:\Users\priyo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\priyo\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\priyo\AppData\Local\Yarn\Cache\v6\npm-rxjs-7.8.1-6f6f3d99ea8044291efd92e7c7fcf562c4057543-integrity\node_modules\rxjs\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "pos-mern",
+    "version": "1.0.0",
+    "description": "pos mern app",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "server": "nodemon server.js",
+      "client": "npm start --prefix client",
+      "dev": "concurrently \"npm run server\" \"npm run client\" ",
+      "seed": "node seeder.js"
+    },
+    "author": "techinfoyt",
+    "license": "MIT",
+    "dependencies": {
+      "body-parser": "^1.20.0",
+      "colors": "^1.4.0",
+      "concurrently": "^7.1.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.0",
+      "express": "^4.18.1",
+      "mongoose": "^6.3.2",
+      "morgan": "^1.10.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
